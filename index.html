@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guruji Grocery Assets - Invest in fresh, Harvest the best</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+    <!-- header  -->
+
+
+    <header>
+        <!-- navigation bar   -->
+        <nav data-aos="fade-down">
+            <img src="/assets/images/logopc.png" alt="">
+            <div>
+                <a href="#hero" class="nav-links" onclick="hideNav()">Home</a>
+                <a href="#hiwSection" class="nav-links" onclick="hideNav()">How it works</a>
+                <a href="#benefits" class="nav-links" onclick="hideNav()">Benefits</a>
+                <a href="#security" class="nav-links" onclick="hideNav()">Legal Agreement</a>
+                <a href="#faq" class="nav-links" onclick="hideNav()">FAQs</a>
+                <a href="#contact" class="nav-links" onclick="hideNav()">Contact</a>
+            </div>
+            <button id="hamToggle">
+                <img src="/assets/icons/bars-solid 1.svg" alt="">
+            </button>
+        </nav>
+        <!-- navigation bar   -->
+
+        <!-- hero section  -->
+        <section id="hero" class="main-section">
+            <div id="heroLeft" data-aos="fade-right">
+                <p class="main-heading">
+                    Get ₹44,000 Worth of Grocery for Just ₹15,000!
+                </p>
+
+                <p class="content">
+                    Join our innovative savings scheme and receive ₹44,000 in grocery coupons over 11 months. Say
+                    goodbye to grocery worries while enjoying unbeatable value for your money!
+                </p>
+                <button class="cta-button" onclick="startSaving()">
+                    Start saving
+                    <img src="/assets/icons/arrow-right-whi9te.png" alt="">
+                </button>
+            </div>
+        </section>
+        <!-- hero section  -->
+    </header>
+    <!-- header  -->
+
+    <!-- How it works section  -->
+
+    <section id="hiwSection" class="main-section">
+        <p class="sub-heading">How it works</p>
+        <div>
+            <div data-aos="fade-up">
+                <span>1</span>
+                <p class="hiwHead">ENROLL</p>
+                <p>Make a one-time payment of ₹15,000.</p>
+            </div>
+            <div data-aos="fade-up">
+                <span>2</span>
+                <p class="hiwHead">RECIEVE</p>
+                <p>Get ₹4,000 worth of grocery coupons monthly for 11 months.</p>
+            </div>
+            <div data-aos="fade-up">
+                <span>3</span>
+                <p class="hiwHead">SHOP & SAVE</p>
+                <p>Use your coupons at our grocery store to save on essentials.</p>
+            </div>
+        </div>
+        <button class="cta-button" onclick="startSaving()">
+            Start Saving
+            <img src="/assets/icons/arrow-right-whi9te.png" alt="">
+        </button>
+    </section>
+
+    <!-- How it works section  -->
+
+    <!-- Benefits Section  -->
+
+    <section id="benefits" class="main-section">
+        <p class="sub-heading">Benefits</p>
+        <div>
+            <div data-aos="fade-up">
+                <img src="/assets/icons/benefits/1.svg" alt="">
+                <p class="hiwHead">Savings</p>
+                <p>Make a one-time payment of ₹15,000.</p>
+            </div>
+            <div data-aos="fade-up">
+                <img src="/assets/icons/benefits/2.svg" alt="">
+                <p class="hiwHead">Security</p>
+                <p>Get ₹4,000 worth of grocery coupons monthly for 11 months.</p>
+            </div>
+            <div data-aos="fade-up">
+                <img src="/assets/icons/benefits/3.svg" alt="">
+                <p class="hiwHead">Convenience</p>
+                <p>Use your coupons at our grocery store to save on essentials.</p>
+            </div>
+            <div data-aos="fade-up">
+                <img src="/assets/icons/benefits/4.svg" alt="">
+                <p class="hiwHead">Simplicity</p>
+                <p>Use your coupons at our grocery store to save on essentials.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section  -->
+
+    <!-- security section  -->
+
+    <section id="security" class="main-section">
+        <!-- <img src="/assets/images/lockoverlay.svg" alt=""> -->
+        <div>
+            <p class="sub-heading">
+                Your Security Is Our Priority
+            </p>
+            <p class="content">We sign a legal agreement to ensure your investment is <b
+                    style="color: var(--primary-green);">safe</b> and your monthly
+                coupons are
+                <b style="color: var(--primary-green);">guaranteed</b>.
+            </p>
+        </div>
+        <img src="/assets/images/sampledoc.jpg" alt="" data-aos="zoom-in">
+
+        <button class="cta-button">
+            Download Sample
+            <img src="/assets/icons/download.svg" alt="">
+        </button>
+    </section>
+
+    <!-- security section  -->
+
+    <!-- Faqs section  -->
+
+    <section id="faq" class="main-section">
+        <p class="sub-heading">FAQs</p>
+        <div
+            class="container p-8 mx-auto text-zinc-700  flex-col divide-y-2 divide-solid divide-white divide-opacity-5 divide-white">
+
+            <div class="item p-4 flex flex-col open" data-aos="zoom-in">
+                <div class="title font-bold flex justify-between items-center">
+                    <span class="text-xl">How do I know my investment is safe?</span>
+                    <span class="fas fa-chevron-down"></span>
+                </div>
+                <p class="text">
+                    Your investment is protected by a legal agreement signed on a ₹100 stamp paper. This legally binding
+                    contract guarantees the terms of the offer and ensures that your ₹15,000 is secure.
+                </p>
+            </div>
+            <div class="item p-4 flex flex-col" data-aos="zoom-in">
+                <div class="title font-bold flex justify-between items-center">
+                    <span class="text-xl">What do I get when I invest ₹15,000?</span>
+                    <span class="fas fa-chevron-down"></span>
+                </div>
+                <p class="text">
+                    When you invest ₹15,000, you will receive 11 grocery coupons, each worth ₹4,000, to be used once a
+                    month. If you don’t use the full amount of a coupon in a given month, we will reimburse the
+                    remaining balance in cash.
+                </p>
+            </div>
+            <div class="item p-4 flex flex-col" data-aos="zoom-in">
+                <div class="title font-bold flex justify-between items-center">
+                    <span class="text-xl">What happens if I don't use the full ₹4,000 coupon in a month?</span>
+                    <span class="fas fa-chevron-down"></span>
+                </div>
+                <p class="text">
+                    If you don’t manage to use the full ₹4,000 in a particular month, the remaining balance will be
+                    credited to you in cash, so you never lose money.
+                </p>
+            </div>
+            <div class="item p-4 flex flex-col" data-aos="zoom-in">
+                <div class="title font-bold flex justify-between items-center">
+                    <span class="text-xl">What kind of legal protection do I get?</span>
+                    <span class="fas fa-chevron-down"></span>
+                </div>
+                <p class="text">
+                    Each participant signs a legal agreement on a ₹100 stamp paper. This contract outlines the terms of
+                    the investment and ensures your money is protected. (Note: You can download the Agreement Sample
+                    from the above section)
+                </p>
+            </div>
+            <div class="item p-4 flex flex-col" data-aos="zoom-in">
+                <div class="title font-bold flex justify-between items-center">
+                    <span class="text-xl">What if the price of groceries increases?</span>
+                    <span class="fas fa-chevron-down"></span>
+                </div>
+                <p class="text">
+                    Regardless of price changes or inflation, your coupon value remains ₹4,000 each month, ensuring you
+                    always get a stable and predictable amount for your groceries.
+                </p>
+            </div>
+            <div class="item p-4 flex flex-col" data-aos="zoom-in">
+                <div class="title font-bold flex justify-between items-center">
+                    <span class="text-xl">Is there a limit to how many times I can invest?</span>
+                    <span class="fas fa-chevron-down"></span>
+                </div>
+                <p class="text">
+                    At this time, each customer is allowed one active investment per household. This ensures fair access
+                    to the program for all participants.
+
+                </p>
+            </div>
+            <div class="item p-4 flex flex-col" data-aos="zoom-in">
+                <div class="title font-bold flex justify-between items-center">
+                    <span class="text-xl">How do I receive the cashback if I don’t use the full coupon amount?</span>
+                    <span class="fas fa-chevron-down"></span>
+                </div>
+                <p class="text">
+                    The cashback amount will be provided to you via google pay, phonepe or any desired UPI method you
+                    like, at the time of purchase of grocery. You can also collect the Cash from our grocery outlet.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faqs section  -->
+
+    <!-- contact section  -->
+
+    <section id="contact" class="main-section">
+        <div>
+            <p class="sub-heading">
+                Contact Us
+            </p>
+            <p class="content">Want to <b style="color: var(--primary-green);">Start Saving</b> or having any queries?
+                Just feel free to contact us.
+            </p>
+        </div>
+        <form action="" data-aos="fade-up">
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Email Address">
+            <input type="text" placeholder="Phone Number">
+            <button class="cta-button">SUBMIT</button>
+        </form>
+    </section>
+    <div id="contactBottom">
+        <div data-aos="fade-up">
+            <img src="/assets/images/CONTACT BOTTOM/phone.svg" alt="">
+            <div>
+                <p>
+                    <a href="callto:8815412143">+91 XXXXXXXXXX</a>
+                </p>
+            </div>
+        </div>
+        <div data-aos="fade-up">
+            <img src="/assets/images/CONTACT BOTTOM/mail.svg" alt="">
+            <div>
+                <p><a href="mailto:8815412143">Contact@gurujiassets.com</a></p>
+
+            </div>
+
+        </div>
+        <div data-aos="fade-up">
+            <img src="/assets/images/CONTACT BOTTOM/location.svg" alt="">
+            <div>
+                <p>Indore<br>
+                    Madhya Pradesh<br>
+                    452009
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- contact section  -->
+
+    <footer>
+        <p>Copyright@2024 - All Rights Reserved</p>
+        <p>Designed and Created by: <a href="https://gavyafuturetech.in/"><u>GFT</u></a></p>
+        <p>
+            <a href="#">GurujiGroceryAssets.com</a>
+        </p>
+    </footer>
+
+    <div id="upArrow">
+        <span class="fas fa-chevron-down"></span>
+    </div>
+
+
+    <script>
+
+        AOS.init();
+
+
+        const items = document.querySelectorAll('.item');
+        lastOpen = 0;
+        items.forEach((el, i) => {
+            el.addEventListener('click', (e) => {
+                if (lastOpen != i) {
+                    items[lastOpen].classList.remove('open');
+                }
+                el.classList.toggle('open');
+                lastOpen = i;
+            })
+        })
+
+        document.getElementById("hamToggle").addEventListener("click", () => {
+            if (document.querySelector("nav>div").style.display != "flex") {
+                document.querySelector("nav>div").style.display = "flex";
+            } else {
+                document.querySelector("nav>div").style.display = "none";
+            }
+        })
+
+        if (window.innerWidth <= 1024) {
+            hideNav = () => {
+                document.querySelector("nav>div").style.display = "none";
+            }
+        }
+
+        startSaving = () => {
+            window.location.href = "/#contact";
+        }
+
+
+        document.getElementById("upArrow").addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // 'smooth' for smooth scrolling, 'auto' for instant
+            });
+        })
+
+    </script>
+</body>
+
+</html>
